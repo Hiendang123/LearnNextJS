@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 
 export default function Home() {
   return (
@@ -20,8 +21,11 @@ export default function Home() {
             </code>
             .
           </li>
+
           <li className="tracking-[-.01em]">Hello</li>
         </ol>
+
+        <Link href="/post">Create a post</Link>
 
         <div className="flex gap-4 items-center flex-col sm:flex-row">
           <a
